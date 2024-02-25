@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Body } from "../components/Body";
 import { Header } from "../components/Header";
 
@@ -7,6 +8,9 @@ export default function Home() {
       <h1 className="text-4xl font-bold">My Page</h1>
       <Header />
       <Body />
+      <Link href="/apicall">
+        <h1 style={{ background: "blue" }}>Learn API</h1>
+      </Link>
     </main>
   );
 }
