@@ -1,3 +1,3 @@
 export const Body = () => {
-  return <p>Body</p>;
+  return <p style={{ background: "grey" }}>Body</p>;
 };

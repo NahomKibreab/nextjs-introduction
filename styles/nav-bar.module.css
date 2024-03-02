@@ -1,0 +1,22 @@
+.navBarMain {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  font-size: 1.5rem;
+}
+
+.navBarMain li {
+  margin: 8px;
+  padding: 8px;
+  background: darkmagenta;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navBarMain li:hover {
+  background: rgb(180, 58, 180);
+}
+
+.navBarMain li:active {
+  background-color: aqua;
+}
